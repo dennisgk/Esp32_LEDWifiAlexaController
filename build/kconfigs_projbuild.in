@@ -1,5 +1,0 @@
-source "/Users/denniskountouris/Desktop/esp-idf/components/app_update/Kconfig.projbuild"
-source "/Users/denniskountouris/Desktop/esp-idf/components/bootloader/Kconfig.projbuild"
-source "/Users/denniskountouris/Desktop/esp-idf/components/esp_rom/Kconfig.projbuild"
-source "/Users/denniskountouris/Desktop/esp-idf/components/esptool_py/Kconfig.projbuild"
-source "/Users/denniskountouris/Desktop/esp-idf/components/partition_table/Kconfig.projbuild"
