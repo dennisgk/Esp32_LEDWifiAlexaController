@@ -1,0 +1,53 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7020
+ho 0 tail 12 room 4
+load:0x40078000,len:15388
+load:0x40080400,len:3824
+entry 0x4008064c
+[0;32mI (28) boot: ESP-IDF v5.0-dev-4723-g30e8f19f5a 2nd stage bootloader[0m
+[0;32mI (28) boot: compile time 17:15:34[0m
+[0;32mI (29) boot: chip revision: V100[0m
+[0;32mI (33) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (97) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (104) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2132ch (135980) map[0m
+[0;32mI (161) esp_image: segment 1: paddr=00031354 vaddr=3ffb0000 size=03bd0h ( 15312) load[0m
+[0;32mI (168) esp_image: segment 2: paddr=00034f2c vaddr=40080000 size=0b0ech ( 45292) load[0m
+[0;32mI (187) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=84220h (541216) map[0m
+[0;32mI (382) esp_image: segment 4: paddr=000c4248 vaddr=4008b0ec size=0a084h ( 41092) load[0m
+[0;32mI (399) esp_image: segment 5: paddr=000ce2d4 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (410) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (410) boot: Disabling RNG early entropy source...[0m
+[0;32mI (422) cpu_start: Pro cpu up.[0m
+[0;32mI (422) cpu_start: Starting app cpu, entry point is 0x400812ec[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (439) cpu_start: Pro cpu start user code[0m
+[0;32mI (439) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (439) cpu_start: Application information:[0m
+[0;32mI (443) cpu_start: Project name:     lcd-wifi-controller-simple[0m
+[0;32mI (450) cpu_start: App version:      v5.0-dev-4723-g30e8f19f5a[0m
+[0;32mI (456) cpu_start: Compile time:     Aug 27 2022 17:16:36[0m
+[0;32mI (463) cpu_start: ELF file SHA256:  e2ef9b6584633d37...[0m
+[0;32mI (469) cpu_start: ESP-IDF:          v5.0-dev-4723-g30e8f19f5a[0m
+[0;32mI (475) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (482) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (488) heap_init: At 3FFB7A48 len 000285B8 (161 KiB): DRAM[0m
+[0;32mI (495) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (501) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (507) heap_init: At 40095170 len 0000AE90 (43 KiB): IRAM[0m
+[0;32mI (515) spi_flash: detected chip: generic[0m
+[0;32mI (518) spi_flash: flash io: dio[0m

@@ -1,0 +1,95 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lapi.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lapi.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lapi.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lauxlib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lauxlib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lauxlib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lbaselib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lbaselib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lbaselib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lcode.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lcode.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lcode.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lcorolib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lcorolib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lcorolib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lctype.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lctype.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lctype.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/ldblib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldblib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldblib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/ldebug.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldebug.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldebug.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/ldo.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldo.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldo.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/ldump.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldump.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ldump.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lfunc.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lfunc.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lfunc.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lgc.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lgc.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lgc.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/linit.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/linit.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/linit.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/liolib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/liolib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/liolib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/llex.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/llex.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/llex.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lmathlib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lmathlib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lmathlib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lmem.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lmem.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lmem.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/loadlib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/loadlib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/loadlib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lobject.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lobject.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lobject.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lopcodes.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lopcodes.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lopcodes.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/loslib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/loslib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/loslib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lparser.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lparser.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lparser.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lstate.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lstate.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lstate.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lstring.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lstring.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lstring.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lstrlib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lstrlib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lstrlib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/ltable.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ltable.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ltable.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/ltablib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ltablib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ltablib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/ltm.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ltm.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/ltm.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lundump.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lundump.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lundump.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lutf8lib.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lutf8lib.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lutf8lib.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lvm.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lvm.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lvm.c.obj.d"
+  "/Users/denniskountouris/Desktop/esp-idf/components/esp-idf-lua/lua/lzio.c" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lzio.c.obj" "gcc" "esp-idf/esp-idf-lua/CMakeFiles/__idf_esp-idf-lua.dir/lua/lzio.c.obj.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/newlib/CMakeFiles/__idf_newlib.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/freertos/CMakeFiles/__idf_freertos.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/heap/CMakeFiles/__idf_heap.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/log/CMakeFiles/__idf_log.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/soc/CMakeFiles/__idf_soc.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/hal/CMakeFiles/__idf_hal.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/pthread/CMakeFiles/__idf_pthread.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/lwip/CMakeFiles/__idf_lwip.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/efuse/CMakeFiles/__idf_efuse.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/driver/CMakeFiles/__idf_driver.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/ulp/CMakeFiles/__idf_ulp.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_serial_slave_link/CMakeFiles/__idf_esp_serial_slave_link.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/vfs/CMakeFiles/__idf_vfs.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
+  "/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

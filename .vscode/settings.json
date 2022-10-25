@@ -1,0 +1,8 @@
+{
+    "cmake.configureOnOpen": false,
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "wifi-connection-handler.h": "c",
+        "led-strip-handler.h": "c"
+    }
+}

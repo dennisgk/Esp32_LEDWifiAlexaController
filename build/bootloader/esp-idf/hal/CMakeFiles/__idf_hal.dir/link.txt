@@ -1,0 +1,2 @@
+/Users/denniskountouris/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libhal.a CMakeFiles/__idf_hal.dir/mpu_hal.c.obj CMakeFiles/__idf_hal.dir/efuse_hal.c.obj CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj CMakeFiles/__idf_hal.dir/mmu_hal.c.obj CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
+/Users/denniskountouris/.espressif/tools/xtensa-esp32-elf/esp-2022r1-RC1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libhal.a

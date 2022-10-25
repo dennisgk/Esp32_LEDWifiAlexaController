@@ -1,0 +1,35 @@
+[0;33m--- idf_monitor on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7112: get_http_response at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:85
+[0m
+[0;33m0x400d710f: get_http_response at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:85
+[0m
+[0;33m0x400d71f9: get_handler at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:135
+[0m
+[0;33m0x400e3a79: httpd_uri at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_uri.c:329
+[0m
+[0;33m0x400e2c4d: httpd_parse_req at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_parse.c:659 (discriminator 15)
+[0m
+[0;33m0x400e2cec: httpd_req_new at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_parse.c:787
+[0m
+[0;33m0x400e3274: httpd_sess_process at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_sess.c:412 (discriminator 15)
+[0m
+[0;33m0x400e1e78: httpd_process_session at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_main.c:200 (discriminator 15)
+[0m
+[0;33m0x4014f3c3: httpd_sess_enum at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_sess.c:50 (discriminator 1)
+[0m
+[0;33m0x400e20cb: httpd_server at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_main.c:250
+[0m
+[0;33m0x400e2133: httpd_thread at /Users/denniskountouris/Desktop/esp-idf/components/esp_http_server/src/httpd_main.c:272 (discriminator 15)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0m

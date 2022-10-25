@@ -1,0 +1,18 @@
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c: In function 'connect_wifi':
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:60:5: error: implicit declaration of function 'tcpip_adapter_init' [-Werror=implicit-function-declaration]
+   60 |     tcpip_adapter_init();
+      |     ^~~~~~~~~~~~~~~~~~
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:111:21: error: implicit declaration of function 'tcpip_adapter_set_hostname' [-Werror=implicit-function-declaration]
+  111 |     esp_err_t ret = tcpip_adapter_set_hostname(TCPIP_ADAPTER_IF_STA ,"den-lights");
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:111:48: error: 'TCPIP_ADAPTER_IF_STA' undeclared (first use in this function)
+  111 |     esp_err_t ret = tcpip_adapter_set_hostname(TCPIP_ADAPTER_IF_STA ,"den-lights");
+      |                                                ^~~~~~~~~~~~~~~~~~~~
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:111:48: note: each undeclared identifier is reported only once for each function it appears in
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:111:15: warning: unused variable 'ret' [-Wunused-variable]
+  111 |     esp_err_t ret = tcpip_adapter_set_hostname(TCPIP_ADAPTER_IF_STA ,"den-lights");
+      |               ^~~
+cc1: some warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/wifi-connection-handler.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

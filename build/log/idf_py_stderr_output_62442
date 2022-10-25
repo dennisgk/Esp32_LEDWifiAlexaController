@@ -1,0 +1,51 @@
+In file included from /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:1:
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c: In function 'turn_off_led':
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/include/led-strip-handler.h:4:31: error: expected ')' before ';' token
+    4 | #define LCD_STATUS_ON (1 << 0);
+      |                               ^
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:26:30: note: in expansion of macro 'LCD_STATUS_ON'
+   26 |     if((lcd_current_status & LCD_STATUS_ON) == 0){
+      |                              ^~~~~~~~~~~~~
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c: In function 'get_handler':
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:47:24: error: expected identifier or '(' before '[' token
+   47 |                 uint8_t[4] dat;
+      |                        ^
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:48:13: warning: no semicolon at end of struct or union
+   48 |             } col_val = {0};
+      |             ^
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:51:27: error: 'dat' undeclared (first use in this function)
+   51 |             set_led_color(dat[0], dat[1], dat[2]);
+      |                           ^~~
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:51:27: note: each undeclared identifier is reported only once for each function it appears in
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/http-server-handler.c:48:15: warning: variable 'col_val' set but not used [-Wunused-but-set-variable]
+   48 |             } col_val = {0};
+      |               ^~~~~~~
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:26:8: note: to match this '('
+   26 |     if((lcd_current_status & LCD_STATUS_ON) == 0){
+      |        ^
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/http-server-handler.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:1:
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c: In function 'turn_on_led':
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/include/led-strip-handler.h:4:31: error: expected ')' before ';' token
+    4 | #define LCD_STATUS_ON (1 << 0);
+      |                               ^
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:34:30: note: in expansion of macro 'LCD_STATUS_ON'
+   34 |     if((lcd_current_status & LCD_STATUS_ON) != 0){
+      |                              ^~~~~~~~~~~~~
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:34:8: note: to match this '('
+   34 |     if((lcd_current_status & LCD_STATUS_ON) != 0){
+      |        ^
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:39:53: error: 'r' undeclared (first use in this function)
+   39 |         led_strip_set_pixel(led_strip, i, (uint32_t)r, (uint32_t)g, (uint32_t)b);
+      |                                                     ^
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:39:53: note: each undeclared identifier is reported only once for each function it appears in
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:39:66: error: 'g' undeclared (first use in this function)
+   39 |         led_strip_set_pixel(led_strip, i, (uint32_t)r, (uint32_t)g, (uint32_t)b);
+      |                                                                  ^
+/Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/led-strip-handler.c:39:79: error: 'b' undeclared (first use in this function)
+   39 |         led_strip_set_pixel(led_strip, i, (uint32_t)r, (uint32_t)g, (uint32_t)b);
+      |                                                                               ^
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/led-strip-handler.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

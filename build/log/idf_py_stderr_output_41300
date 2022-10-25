@@ -1,0 +1,453 @@
+[0;33m--- idf_monitor on /dev/cu.usbserial-0001 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x40081da2: panic_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/panic.c:412
+[0m
+[0;33m0x40089099: esp_system_abort at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_system.c:135
+[0m
+[0;33m0x4008f98e: abort at /Users/denniskountouris/Desktop/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x4008908f: _esp_error_check_failed at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/esp_err.c:47
+[0m
+[0;33m0x400d7d08: connect_wifi at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/wifi-connection-handler.c:110 (discriminator 1)
+[0m
+[0;33m0x400d7109: app_main at /Users/denniskountouris/Desktop/esp-idf/projects/lcd-wifi-controller-simple/main/lcd-wifi-controller-simple.c:35
+[0m
+[0;33m0x4015345b: main_task at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x4008c0fd: vPortTaskWrapper at /Users/denniskountouris/Desktop/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400812ec: call_start_cpu1 at /Users/denniskountouris/Desktop/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0m
