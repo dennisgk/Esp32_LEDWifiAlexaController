@@ -1,6 +1,7 @@
 # ESP32 LED Light Controller via Wifi and Alexa
 
 **This library is based on the ESP-IDF library**
+
 It only requires one extra component for controlling the light bitbang intervals: [led_strip](https://components.espressif.com/components/espressif/led_strip)
 
 ---
